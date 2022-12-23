@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+	<title> Web Application </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--<link rel="icon" href="path"/>-->
+	<link rel="icon" href="E:\Wasim Khan\Notes (.Net Full Stack)\HTML-CSS-JavaScript\Practice\images\logo.png"/>
+    <!--mapping/linking css file-->
+	<link rel="stylesheet" href="style.css"/>
+
+    <!-- Begin mapping/linking google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+     <!-- Ending mapping/linking google fonts-->
+
+     <!--Mapping/Linking menubar close icon-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ </head>
+ <body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images\Audi-logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i> <!--close icon-->
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+                
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i> <!--bar icon-->
+        </nav>
+            <div class="text-box">
+                <h1>Welcome to My First Web Application</h1>
+                <p>Making website is now one of the easiest thing in the world. You just need to learn <br>HTML, CSS, JavaScript and you are good to go.</p>
+                <a href="" class="visit-btn">Visit Us To Know More</a>
+            </div>
+    </section>
+
+    <!--------------- Course ---------------->
+    <section class="course">
+        <h1> Courses We Offer </h1>
+        <p>Quality Training by Experts of various Technologies to suit aspirants from a different academic profile.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Beginner Level</h3>
+                <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+            </div>
+            <div class="course-col">
+                <h3>Intermediate Level</h3>
+                <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+            </div>
+            <div class="course-col">
+                <h3>High Level</h3>
+                <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus -->
+
+    <section class="campus">
+        <h1>Our Branches</h1>
+        <p>Training by Experts of various Technologies to suit aspirants from a different academic profile.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="Images/london.png" alt="Hi-Tech City Campus">
+                <div class="Layer">
+                    <h3>Hi-Tech City</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="Images/newyork.png" alt="Madhapur Campus">
+                <div class="Layer">
+                    <h3>Madhapur</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="Images/washington.png" alt="S R Nagar Campus">
+                <div class="Layer">
+                    <h3>S R Nagar</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!--JavaScript for toggle menu-->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-150px";
+        }
+    </script>		
+ </body>
+</html>
