@@ -290,3 +290,168 @@ nav .fa{
 .testimonials-col .fa{
     color: rgba(255, 217, 0, 0.984);
 }
+
+@media(max-width: 700px){
+    .testimonials-col img{
+        margin-left: 0;
+        margin-right: 15px;
+    }
+}
+
+/*-----------call to action-------------*/
+
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(65, 64, 64, 0.7), rgba(67, 66, 66, 0.7)), url(Images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+@media(max-width: 700px){
+    .cta h1{
+        font-size: 15px;
+    }
+}
+
+/*------------Footer-------------*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.p_footer{
+    position: relative;
+    margin: 12px;
+    padding: 0 30px;
+}
+.icons .fa{
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 10px 0;
+    size: 10px;
+}
+
+.icons h4{
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+
+.fa-heart-o{
+    color: red;
+}
+
+.fa-facebook{
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    background: #fff;
+    color: #395b98;
+    transition: 0.5s;
+}
+
+.fa-facebook:hover{
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    background: #395b98;
+    color: #fff
+        
+}
+
+.fa-twitter{
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    background: #fff;
+    color: #5483d9;
+    transition: 0.5s;
+}
+
+.fa-twitter:hover{
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    background: #5483d9;
+    color: #fff        
+}
+
+
+.fa-youtube{
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    background: #fff;
+    color: #f70707;
+    transition: 0.5s;
+}
+
+.fa-youtube:hover{
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    background: #f70707;
+    color: #fff
+        
+}
+.fa-instagram{
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    background: #fff;
+    color: #f70707;
+    transition: 0.5s;
+
+}
+
+.fa-instagram:hover{
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    background: #f70707;
+    color: #fff
+}
+
+.icons a{
+    text-decoration: none;
+    
+}
