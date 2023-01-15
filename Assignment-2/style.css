@@ -1,0 +1,141 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*----------header Section----------*/
+#header{
+    
+    height: 25px;
+    background-color: rgb(248, 246, 246);
+    box-shadow: 0 2px rgb(221, 224, 224); 
+}
+.headersec img{
+    margin-left: 168px;  
+    width: 100px;
+    height: 20px
+}
+
+/*----------Section-1------------*/
+
+.main-container-1{
+    text-align: center;
+    padding: 20px 80px;    
+}
+.banner-image{    
+    cursor: pointer;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.btn-netbanking{
+    background-color: rgb(218, 16, 16);
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/*----------Section-2------------*/
+.main-container-2{
+    text-align: center;
+    padding: 5px 80px 80px 80px;
+}
+.main-container-2 span{
+    color: #000000;
+    display: block;
+    text-align: left;
+}
+.container-2{
+    font-size: 13px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: rgb(241, 241, 241);
+    width: 170px; 
+    border-radius: 6px;
+    box-shadow: 0 2px rgb(168, 169, 169);   
+}
+.wallet-image{        
+    width: 30px;
+    height: 25px;
+    padding-right: 10px;
+}
+
+.btn-loanapplication{    
+    background-color: #228B22;
+    color: white;
+    font-size: 10px;
+    padding: 6px 6px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+/*----------Section-3------------*/
+
+.container-3{
+    text-align: center;
+    width: 100%
+}
+.btn-impmessages{
+    background-color: navy;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/*--------section-4---------*/
+
+.main-container-4{
+    text-align: center;
+    padding: 10px 80px 20px 80px;
+}
+
+.container-4{
+    font-size: 13px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 6px;
+    box-shadow: 0 2px rgb(168, 169, 169);
+    height: 30px;   
+}
+.main-container-4 span{
+    color: #000000;
+    display: block;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.main-container-4 img{
+    width: 40px;
+    height: 40px;
+    padding: 0 20px 0 5px;
+}
+
+/*------section-5---------------*/
+.main-container-5{
+    text-align: center;
+    padding: 10px 80px 20px 80px;
+}
+
+/*--------section-6---------*/
+
+.main-container-6{
+    background-color: aqua;
+    text-align: center;
+    padding: 10px 80px 20px 80px;
+}
+.container-6{
+    font-size: 13px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 6px;
+    box-shadow: 0 2px rgb(168, 169, 169);
+    height: 30px;   
+}
