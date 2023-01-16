@@ -3,16 +3,28 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 /*----------header Section----------*/
-#header{
-    
-    height: 25px;
+#header{    
+    height: 30px;
     background-color: rgb(248, 246, 246);
-    box-shadow: 0 2px rgb(221, 224, 224); 
+    box-shadow: 0 2px rgb(221, 224, 224);
+    padding: 0px 80px 0px 80px; 
+}
+.div-header{
+    width: 110px;
 }
 .headersec img{
-    margin-left: 168px;  
+    padding-top: 8px;
+    padding-bottom: 0px;
     width: 100px;
     height: 20px
+}
+
+button{
+    opacity: 1;
+    transition: 0.5s;
+}
+button:hover{
+    opacity: 0.8;
 }
 
 /*----------Section-1------------*/
@@ -48,10 +60,7 @@
 }
 .container-2{
     font-size: 13px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding: 10px;
     background-color: rgb(241, 241, 241);
     width: 170px; 
     border-radius: 6px;
@@ -97,10 +106,7 @@
 
 .container-4{
     font-size: 13px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 20px;
     background-color: rgb(241, 241, 241);
     border-radius: 6px;
     box-shadow: 0 2px rgb(168, 169, 169);
@@ -123,4 +129,63 @@
 .main-container-5{
     text-align: center;
     padding: 10px 80px 20px 80px;
+}
+
+.flex-div img{
+    width: 25px;
+    height: 20px;
+    padding-right: 10px;
+}
+#blankimage{
+    visibility: hidden;    
+}
+
+/*--------section-6---------*/
+
+.section-6{
+    padding: 10px 80px 20px 80px;
+}
+#flex-div{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    gap: 20px;
+    font-size: 13px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 6px;
+    box-shadow: 0 2px rgb(168, 169, 169);
+    padding: 20px 20px 20px 20px;      
+}
+.flex-div p{
+    display:inline;
+    text-align: left;    
+}
+
+/*--------Footer section--------*/
+
+.maincontainer-flex{
+    padding: 10px 80px 20px 45px;
+    font-size: 12px;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+#flink{
+    text-decoration: none;
+}
+.main-nav{
+    justify-content: space-between;
+}
+.label{
+    justify-content: end;
+}
+
+.nav-links ul{
+    gap: 40px;
 }
